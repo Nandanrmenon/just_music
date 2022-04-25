@@ -134,7 +134,7 @@ class _HomePageState extends State<HomePage> {
                                         var dir = await getDownloadsDirectory();
                                         var filePath = path.join(
                                             dir!.uri.toFilePath(),
-                                            '${video.title}.${audio.container.name}'
+                                            '${video.title}.mp3'
                                                 .replaceAll(r'\', '')
                                                 .replaceAll('/', '')
                                                 .replaceAll('*', '')
